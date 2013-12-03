@@ -1,7 +1,7 @@
 {
   "uuid": "264a98fb-5265-438d-a1fd-9f305c502905",
-  "shortName": "mediacontrol",
-  "longName": "mediacontrol",
+  "shortName": "Media Control",
+  "longName": "Media Control",
   "companyName": "zern",
   "versionCode": 1,
   "versionLabel": "1.0.0",
@@ -10,9 +10,32 @@
   },
   "capabilities": [ "configurable" ],
   "appKeys": {
-    "request": 0
+    "request": 0,
+    "ip_address": 1
   },
   "resources": {
-    "media": []
+    "media": [
+      {
+        "type": "png",
+        "name": "MENU_ICON",
+        "file": "menu_icon.png",
+        "menuIcon": true
+      },
+      {
+        "type": "png",
+        "name": "ACTION_PAUSE_ICON",
+        "file": "action_pause_icon.png"
+      },
+      {
+        "type": "png",
+        "name": "ACTION_LOUD_ICON",
+        "file": "action_loud_icon.png"
+      },
+      {
+        "type": "png",
+        "name": "ACTION_QUIET_ICON",
+        "file": "action_quiet_icon.png"
+      }
+    ]
   }
 }
