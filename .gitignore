@@ -13,6 +13,8 @@
 *.dylib
 
 # Executables
-*.exe
+.exe
 *.out
 *.app
+
+ip_address

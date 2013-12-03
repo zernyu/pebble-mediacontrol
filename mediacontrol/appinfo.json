@@ -1,0 +1,18 @@
+{
+  "uuid": "264a98fb-5265-438d-a1fd-9f305c502905",
+  "shortName": "mediacontrol",
+  "longName": "mediacontrol",
+  "companyName": "zern",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "capabilities": [ "configurable" ],
+  "appKeys": {
+    "request": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
